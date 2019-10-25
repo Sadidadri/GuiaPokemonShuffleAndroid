@@ -73,8 +73,8 @@
 
         <ImageView
             android:id="@+id/imgU1"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_columnSpan="3" />
 
         <TextView
@@ -94,32 +94,32 @@
 
             <ImageView
                 android:id="@+id/imgOE1"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgOE2"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgOE3"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgOE4"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgOE5"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
         </LinearLayout>
@@ -133,8 +133,8 @@
 
         <ImageView
             android:id="@+id/imgFG1"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_columnSpan="3" />
 
         <TextView
@@ -154,32 +154,32 @@
 
             <ImageView
                 android:id="@+id/imgSF1"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF2"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF3"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF4"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF5"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
         </LinearLayout>
@@ -193,32 +193,32 @@
 
             <ImageView
                 android:id="@+id/imgSF6"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF7"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF8"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF9"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF10"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
         </LinearLayout>
@@ -232,8 +232,8 @@
 
         <ImageView
             android:id="@+id/imgOD1"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_columnSpan="3" />
 
         <TextView
@@ -245,8 +245,8 @@
 
         <ImageView
             android:id="@+id/imgE1"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_columnSpan="3" />
 
         <TextView
@@ -258,8 +258,8 @@
 
         <ImageView
             android:id="@+id/imgC1"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_columnSpan="3" />
 
         <TextView
@@ -278,32 +278,32 @@
 
             <ImageView
                 android:id="@+id/imgPD1"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgPD2"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgPD3"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgPD4"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgPD5"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_weight="1" />
 
         </LinearLayout>

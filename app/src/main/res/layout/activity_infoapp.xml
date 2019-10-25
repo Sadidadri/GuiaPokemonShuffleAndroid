@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".infoapp">
+
+    <LinearLayout
+        android:id="@+id/infovtc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtguiapkmn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guía Pokémon Shuffle"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/txtversion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version: 0.1"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/txtinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esta aplicación fue desarrollada con fines académicos y colaborativos con la comunidad de Telegram: ShufflePokemon"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/autorvtc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/snorlaxmsg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgsnorlax"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/snorlaxprofile" />
+
+            <TextView
+                android:id="@+id/txtautor"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:text="¡Hola! Soy Sadidadri, el autor de esta app y mis redes sociales son la siguientes:"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/redessociales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_instagram"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/instagram_icon"
+                android:onClick="clickInstagram" />
+
+            <Button
+                android:id="@+id/btn_twitter"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/twitter_icon"
+                android:onClick="clickTwitter" />
+
+            <Button
+                android:id="@+id/btn_linkedin"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/linkedin_icon"
+                android:onClick="clickLinkedin" />
+
+            <Button
+                android:id="@+id/btn_github"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@drawable/github_icon"
+                android:onClick="clickGithub" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtgracias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="¡Gracias por usar mi app!"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+</LinearLayout>

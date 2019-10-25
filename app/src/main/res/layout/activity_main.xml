@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/guia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Guía"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/PKMNLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pkmnshufflelogo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vtcfasesnormales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnfasesnormales"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fases Normales" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vtcfasesExtra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnfasesextra"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fases Extra" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vtcFasesEspeciales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnfasesespeciales"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="clickFasesEspeciales"
+            android:text="Fases Especiales" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hzntmenu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:id="@+id/vtcHabilidades"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txthabilidades"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Habilidades:" />
+
+            <ImageView
+                android:id="@+id/img_cargam"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/carga_m" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vtcMegaturbos"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtmegaturbos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Megaturbos:" />
+
+            <Button
+                android:id="@+id/btn_megaturbo"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/megaturbo"
+                android:onClick="clickMegaturbo" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hzntmenu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/vtcCambiacapacidad"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtcambiacapacidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cambiacapacidades:" />
+
+            <Button
+                android:id="@+id/btn_cambiacapacidad"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/cambiacapacidad" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vtcNivelMax"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtnivelesmax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Niveles Max:" />
+
+            <Button
+                android:id="@+id/btn_nivelmax"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/nivelmax" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hzntmenu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/vtcMaraton"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtmaraton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Maraton Pokémon:" />
+
+            <Button
+                android:id="@+id/btn_maraton"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/megarayquaza" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vtcGato"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtgato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fase Meowth:" />
+
+            <Button
+                android:id="@+id/btn_gato"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/meowth" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pieapp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/vtcpie1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtautor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Esta app ha sido desarrollada por Sadidadri y la comunidad ShufflePokémon"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hzntpie1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_telegram"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/telegram_icon"
+                android:onClick="clickTelegram" />
+
+            <Button
+                android:id="@+id/btn_info"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/info_icon"
+                android:onClick="clickInfo" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

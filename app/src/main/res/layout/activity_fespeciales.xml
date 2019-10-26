@@ -67,6 +67,7 @@
             android:id="@+id/txtretoU"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:gravity="center"
             android:text="Ultrarreto:"
             android:textSize="20sp" />
@@ -81,6 +82,7 @@
             android:id="@+id/txtotroseventos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:gravity="center"
             android:text="Otros Eventos:"
             android:textSize="16sp" />
@@ -128,6 +130,7 @@
             android:id="@+id/txtfasegradual"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Fase Gradual:"
             android:textSize="18sp" />
 
@@ -142,6 +145,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowSpan="2"
+            android:layout_gravity="center"
             android:text="Zona Safari:"
             android:textSize="18sp" />
 
@@ -227,6 +231,7 @@
             android:id="@+id/txtOportunidadDiaria"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Oportunidad Diaria:"
             android:textSize="15sp" />
 
@@ -240,6 +245,7 @@
             android:id="@+id/txtdesafioespecial"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Desafio Especial:"
             android:textSize="16sp" />
 
@@ -253,6 +259,7 @@
             android:id="@+id/txtfasecompeticion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Fase Competición:"
             android:textSize="15sp" />
 
@@ -266,6 +273,7 @@
             android:id="@+id/txtpkmndeldia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Pokémon del Día:"
             android:textSize="16sp" />
 

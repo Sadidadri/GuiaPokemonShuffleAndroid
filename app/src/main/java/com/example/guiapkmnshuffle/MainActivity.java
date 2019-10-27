@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button fasesespeciales;
     Button megaturbo;
     Button cambiacapacidad;
+    Button fmeowth;
     Button telegram;
     Button info;
 
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         fasesespeciales = findViewById(R.id.btnfasesespeciales);
         megaturbo = findViewById(R.id.btn_megaturbo);
         cambiacapacidad = findViewById(R.id.btn_cambiacapacidad);
+        fmeowth = findViewById(R.id.btn_gato);
         telegram = findViewById(R.id.btn_telegram);
         info = findViewById(R.id.btn_info);
     }
@@ -34,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickMegaturbo(View v){
         Intent intent = new Intent (v.getContext(), megaturbos.class);
+        startActivityForResult(intent, 0);
+    }
+    public void clickFMeowth(View v){
+        Intent intent = new Intent (v.getContext(), fmeowth.class);
         startActivityForResult(intent, 0);
     }
     public void clickTelegram(View v){

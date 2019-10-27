@@ -233,7 +233,8 @@
                 android:id="@+id/btn_gato"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:background="@drawable/meowth" />
+                android:background="@drawable/meowth"
+                android:onClick="clickFMeowth" />
 
         </LinearLayout>
     </LinearLayout>

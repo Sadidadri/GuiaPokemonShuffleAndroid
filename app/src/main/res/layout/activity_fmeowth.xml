@@ -5,6 +5,8 @@
     android:id="@+id/content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
     android:orientation="vertical"
     tools:context=".fmeowth">
 
@@ -121,7 +123,7 @@
                             android:layout_marginRight="5dp"
                             android:layout_weight="1"
                             android:background="@drawable/imgod7"
-                            android:onClick="clickCosmog" />
+                            android:onClick="clickMeloetta" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -133,6 +135,13 @@
                     android:layout_weight="1"
                     android:background="@drawable/nivel_s" />
             </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cabeceraBordeEq1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#A39191"
+                android:orientation="horizontal"></LinearLayout>
 
             <LinearLayout
                 android:id="@+id/contenedorEquipos2"
@@ -205,6 +214,171 @@
                     android:background="@drawable/nivel_a" />
 
             </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cabeceraBordeEq2"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#A39191"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/contenedorEquipos3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/megarayquaza"
+                    android:layout_width="230dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/megarayquaza"
+                    android:onClick="clickMegaRayquaza" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Equipo 3:"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_miembro7"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/sunkern"
+                            android:onClick="clickSunkern" />
+
+                        <Button
+                            android:id="@+id/btn_miembro8"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/manaphy"
+                            android:onClick="clickSunkern" />
+
+                        <Button
+                            android:id="@+id/btn_miembro9"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/pokeball"
+                            android:onClick="clickPokeball" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_rango3"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/nivel_b" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cabeceraBordeEq3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#A39191"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/contenedorEquipos4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/megagengar"
+                    android:layout_width="230dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/megagengar"
+                    android:onClick="clickMegaGengar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Equipo 4:"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_miembro10"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/sunkern"
+                            android:onClick="clickManaphy" />
+
+                        <Button
+                            android:id="@+id/btn_miembro11"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/manaphy"
+                            android:onClick="clickManaphy" />
+
+                        <Button
+                            android:id="@+id/btn_miembro12"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/pokeball"
+                            android:onClick="clickPokeball" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_rango4"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/nivel_c" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cabeceraBordeEq4"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#A39191"
+                android:orientation="horizontal"></LinearLayout>
 
         </LinearLayout>
     </ScrollView>

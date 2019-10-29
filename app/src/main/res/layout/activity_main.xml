@@ -242,50 +242,47 @@
     <LinearLayout
         android:id="@+id/pieapp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:orientation="horizontal">
 
-        <LinearLayout
-            android:id="@+id/vtcpie1"
+        <TextView
+            android:id="@+id/txtautor"
             android:layout_width="200dp"
-            android:layout_height="match_parent"
-            android:gravity="start"
-            android:orientation="vertical">
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="5dp"
+            android:text="Esta app ha sido desarrollada por Sadidadri y la comunidad de Telegram: ShufflePokémon"
+            android:textSize="15sp" />
 
-            <TextView
-                android:id="@+id/txtautor"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="5dp"
-                android:text="Esta app ha sido desarrollada por Sadidadri y la comunidad ShufflePokémon"
-                android:textSize="15sp" />
+        <TextView
+            android:id="@+id/vacio"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
 
-        </LinearLayout>
+        <Button
+            android:id="@+id/btn_telegram"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/telegram_icon"
+            android:onClick="clickTelegram" />
 
-        <LinearLayout
-            android:id="@+id/hzntpie1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_info"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:width="50dp"
+            android:height="50dp"
+            android:background="@drawable/info_icon"
+            android:onClick="clickInfo"
+            tools:layout_weight="1" />
 
-            <Button
-                android:id="@+id/btn_telegram"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/telegram_icon"
-                android:onClick="clickTelegram" />
-
-            <Button
-                android:id="@+id/btn_info"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginStart="15dp"
-                android:layout_weight="1"
-                android:background="@drawable/info_icon"
-                android:onClick="clickInfo" />
-        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

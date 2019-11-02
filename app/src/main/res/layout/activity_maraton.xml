@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical"
+    tools:context=".maraton">
+
+    <LinearLayout
+        android:id="@+id/cabeceraBordeSup2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#A39191"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cabecera2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B9ADAD"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgrayquaza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/megarayquaza" />
+
+        <TextView
+            android:id="@+id/txt_maraton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Maratón Pokémon"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cabeceraBordeInf2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#A39191"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_maratonsio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="(Sin ayudas)" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/contenido2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/padre2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/contenedorEquipos1maraton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/chorizardX"
+                    android:layout_width="230dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shinyzardx"
+                    android:onClick="clickShinyzard" />
+
+                <LinearLayout
+                    android:id="@+id/content2Eqmaraton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/eq1maraton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Equipo Eyección:"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/content2eqHorMaraton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_miembro1maraton"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/imgoe39"
+                            android:onClick="clickNoivern" />
+
+                        <Button
+                            android:id="@+id/btn_miembro2maraton"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/flygon"
+                            android:onClick="clickFlygon" />
+
+                        <Button
+                            android:id="@+id/btn_miembro3maraton"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/pokeball"
+                            android:onClick="clickPokeball" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_rango1maraton"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/nivel_s" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cabeceraBordeEq1maraton"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#A39191"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/contenedorEquipos2maraton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/shinyzardX2"
+                    android:layout_width="230dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shinyzardx"
+                    android:onClick="clickShinyzard" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView5maraton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Equipo Ráfaga Frenética:"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_miembro4maraton"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/imgoe49"
+                            android:onClick="clickMetagross" />
+
+                        <Button
+                            android:id="@+id/btn_miembro5maraton"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/imgoe43"
+                            android:onClick="clickHawlucha" />
+
+                        <Button
+                            android:id="@+id/btn_miembro6maraton"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/umbreon"
+                            android:onClick="clickUmbreon" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_rango2maraton"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/nivel_a" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cabeceraBordeEq2maraton"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#A39191"
+                android:orientation="horizontal"></LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

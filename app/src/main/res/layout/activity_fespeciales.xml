@@ -17,8 +17,8 @@
 
         <ImageView
             android:id="@+id/img_pkmn"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/pkmnshufflelogo" />
 
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textSize="32sp" />
+            android:textSize="24sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,72 +57,65 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center|fill_horizontal"
-        android:layout_margin="5dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="20dp"
         android:alignmentMode="alignBounds"
-        android:columnCount="4"
+        android:columnCount="2"
         android:rowCount="9">
+
 
         <TextView
             android:id="@+id/txtretoU"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="Ultrarreto:"
-            android:textSize="20sp" />
+            android:layout_gravity="start|center_vertical"
+            android:text="Reto UE / UR"
+            android:textSize="15sp" />
 
         <ImageView
             android:id="@+id/imgU1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_columnSpan="3" />
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
 
         <TextView
             android:id="@+id/txtotroseventos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
+            android:layout_gravity="start|center_vertical"
             android:text="Otros Eventos:"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
 
         <LinearLayout
             android:id="@+id/imagenesOtrosEventos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="3"
+            android:layout_columnSpan="1"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imgOE1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
 
             <ImageView
                 android:id="@+id/imgOE2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
 
             <ImageView
                 android:id="@+id/imgOE3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
 
             <ImageView
                 android:id="@+id/imgOE4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
 
             <ImageView
                 android:id="@+id/imgOE5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_weight="1" />
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
 
         </LinearLayout>
 
@@ -130,60 +123,60 @@
             android:id="@+id/txtfasegradual"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start|center_vertical"
             android:text="Fase Gradual:"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
         <ImageView
             android:id="@+id/imgFG1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_columnSpan="3" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_columnSpan="1" />
 
         <TextView
             android:id="@+id/txtSafari"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowSpan="2"
-            android:layout_gravity="center"
+            android:layout_gravity="start|center_vertical"
             android:text="Zona Safari:"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
         <LinearLayout
             android:id="@+id/imagenesZonaSafari1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="3"
+            android:layout_columnSpan="1"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imgSF1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
         </LinearLayout>
@@ -192,37 +185,37 @@
             android:id="@+id/imagenesZonaSafari2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="3"
+            android:layout_columnSpan="1"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imgSF6"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF7"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF8"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF9"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgSF10"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
         </LinearLayout>
@@ -231,94 +224,93 @@
             android:id="@+id/txtOportunidadDiaria"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start|center_vertical"
             android:text="Oportunidad Diaria:"
             android:textSize="15sp" />
 
         <ImageView
             android:id="@+id/imgOD1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_columnSpan="3" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_columnSpan="1" />
 
         <TextView
             android:id="@+id/txtdesafioespecial"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start|center_vertical"
             android:text="Desafio Especial:"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
 
         <ImageView
             android:id="@+id/imgE1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_columnSpan="3" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_columnSpan="1" />
 
         <TextView
             android:id="@+id/txtfasecompeticion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start|center_vertical"
             android:text="Fase Competición:"
             android:textSize="15sp" />
 
         <ImageView
             android:id="@+id/imgC1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_columnSpan="3" />
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_columnSpan="1" />
 
         <TextView
             android:id="@+id/txtpkmndeldia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start|center_horizontal|center_vertical"
             android:text="Pokémon del Día:"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
 
         <LinearLayout
             android:id="@+id/imagenespkmndia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnSpan="3"
+            android:layout_columnSpan="1"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/imgPD1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgPD2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgPD3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgPD4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
             <ImageView
                 android:id="@+id/imgPD5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_weight="1" />
 
         </LinearLayout>
 
-        ;
-
 
     </GridLayout>
+
 
 </LinearLayout>

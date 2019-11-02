@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".fmeowth"></activity>
+        <activity android:name=".maraton"></activity>
+        <activity android:name=".fmeowth" />
         <activity android:name=".fespeciales" />
         <activity android:name=".infoapp" />
         <activity android:name=".megaturbos" />

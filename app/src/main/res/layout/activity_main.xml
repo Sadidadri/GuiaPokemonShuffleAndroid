@@ -181,7 +181,7 @@
                 android:id="@+id/btn_nivelmax"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
-                android:background="@drawable/nivelmax" />
+                android:background="@drawable/nvlmax" />
         </LinearLayout>
     </LinearLayout>
 

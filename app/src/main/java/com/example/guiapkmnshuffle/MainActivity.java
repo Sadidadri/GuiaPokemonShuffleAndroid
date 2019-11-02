@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickMegaturbo(View v){
-        //Intent intent = new Intent (v.getContext(), megaturbos.class);
-        //startActivityForResult(intent, 0);
+        Intent intent = new Intent (v.getContext(), megaturbos.class);
+        startActivityForResult(intent, 0);
     }
     public void clickMaraton(View v){
         Intent intent = new Intent (v.getContext(), maraton.class);

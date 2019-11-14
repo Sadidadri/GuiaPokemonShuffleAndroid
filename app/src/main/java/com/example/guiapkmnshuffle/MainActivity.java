@@ -7,10 +7,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     Button fasesespeciales;
+    ImageView habilidades;
     Button megaturbo;
     Button cambiacapacidad;
     Button fmeowth;
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         fasesespeciales = findViewById(R.id.btnfasesespeciales);
+        habilidades = findViewById(R.id.btn_habilidades);
         megaturbo = findViewById(R.id.btn_megaturbo);
         cambiacapacidad = findViewById(R.id.btn_cambiacapacidad);
         fmeowth = findViewById(R.id.btn_gato);
@@ -33,7 +36,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (v.getContext(), fespeciales.class);
         startActivityForResult(intent, 0);
     }
-
+    public void clickHabilidades(View v){
+        Intent intent = new Intent (v.getContext(), habilidades.class);
+        startActivityForResult(intent, 0);
+    }
     public void clickMegaturbo(View v){
         Intent intent = new Intent (v.getContext(), megaturbos.class);
         startActivityForResult(intent, 0);

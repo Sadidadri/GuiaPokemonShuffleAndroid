@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".maraton"></activity>
+        <activity android:name=".abrasivoplus"></activity>
+        <activity android:name=".abrasivo" />
+        <activity android:name=".habilidades" />
+        <activity android:name=".maraton" />
         <activity android:name=".fmeowth" />
         <activity android:name=".fespeciales" />
         <activity android:name=".infoapp" />

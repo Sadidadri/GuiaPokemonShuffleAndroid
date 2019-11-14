@@ -41,8 +41,9 @@
 
         <Button
             android:id="@+id/btnfasesnormales"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/barra_menu"
             android:gravity="center"
             android:text="Fases Normales" />
 
@@ -58,8 +59,9 @@
 
         <Button
             android:id="@+id/btnfasesextra"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/barra_menu"
             android:gravity="center"
             android:text="Fases Extra" />
     </LinearLayout>
@@ -75,8 +77,9 @@
 
         <Button
             android:id="@+id/btnfasesespeciales"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/barra_menu"
             android:gravity="center"
             android:onClick="clickFasesEspeciales"
             android:text="Fases Especiales" />
@@ -103,9 +106,10 @@
                 android:text="Habilidades:" />
 
             <ImageView
-                android:id="@+id/img_cargam"
+                android:id="@+id/btn_habilidades"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:onClick="clickHabilidades"
                 app:srcCompat="@drawable/carga_m" />
         </LinearLayout>
 

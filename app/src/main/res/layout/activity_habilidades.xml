@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical"
+    tools:context=".habilidades">
+    <LinearLayout
+        android:id="@+id/cabeceraBordeSup3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#A39191"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cabecera3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B9ADAD"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/habilidades"
+            android:layout_width="wrap_content"
+            android:layout_height="101dp"
+            android:layout_gravity="center|center_horizontal|end"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/carga_m" />
+
+        <TextView
+            android:id="@+id/txt_habilidades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Habilidades"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cabeceraBordeInf2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#A39191"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollHabilidades"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfCero"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/txt_abrasivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAbrasivo"
+                android:text="Abrasivo"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+            android:id="@+id/cabeceraBordeInfUno"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000"
+            android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/txt_abrasivoplus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAbrasivoPlus"
+                android:text="Abrasivo +"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfDos"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_abrazote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAbrazote"
+                android:text="Abrazote"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfTres"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/txt_absorbeenergía"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAbsorbeenergia"
+                android:text="Absorbeenergía"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfCuatro"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_adormilante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAdormilante"
+                android:text="Adormilante"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfCinco"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_alarido_dragon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAlaridoDragon"
+                android:text="Alarido Dragón"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfSeis"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_aleteo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAleteo"
+                android:text="Aleteo"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfSiete"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_amenazante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAmenazante"
+                android:text="Amenazante"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfOcho"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_antojo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAntojo"
+                android:text="Antojo"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfNueve"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_antojoplus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAntojoPlus"
+                android:text="Antojo +"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfDiez"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_antojoplusplus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAntojoPlusPlus"
+                android:text="Antojo ++"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfOnce"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_anulabarreras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAnulabarreras"
+                android:text="Anulabarreras"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfDoce"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_anulabarrerasomega"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAnulabarrerasOmega"
+                android:text="Anulabarreras Ω"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfTrece"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_arenal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickArenal"
+                android:text="Arenal"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfCatorce"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_arrojo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickArrojo"
+                android:text="Arrojo"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfQuince"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_ataque_cruz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAtaqueCruz"
+                android:text="Ataque Cruz"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfDieciseis"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_ataque_cruzplus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAtaqueCruzPlus"
+                android:text="Ataque Cruz +"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfDiecisiete"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_ataquel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAtaqueL"
+                android:text="Ataque L"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfDieciocho"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_ataqueshock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAtaqueShock"
+                android:text="Ataque Shock"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfDiecinueve"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_ataqueT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAtaqueT"
+                android:text="Ataque T"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfVeinte"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_ataque_umbrio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAtaqueUmbrio"
+                android:text="Ataque Umbrío"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfVeintiuno"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_auge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickAuge"
+                android:text="Auge"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfVeintidos"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_beligerante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickBeligerante"
+                android:text="Beligerante"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfVeintitres"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+            <TextView
+                android:id="@+id/txt_bloqueo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#969595"
+                android:gravity="center"
+                android:onClick="clickBloqueo"
+                android:text="Bloqueo"
+                android:textColor="#FFF"
+                android:textSize="52sp" />
+            <LinearLayout
+                android:id="@+id/cabeceraBordeInfVeinticuatro"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

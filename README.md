@@ -16,6 +16,6 @@ An application developed for Android systems. A complete guide for the Pokémon 
 ## Demo
 
 Click en la imagen para acceder a la demo:
-[![Demo of RollPizza](https://www.driangel.com/img/shuffleguide.png)](https://www.youtube.com/watch?v=JDCQ1nHfo5E "Pokemon Shuffle Guide v0.2 for Android")
+[![Demo of ShuffleGuide](https://www.driangel.com/img/shuffleguide.png)](https://www.youtube.com/watch?v=JDCQ1nHfo5E "Pokemon Shuffle Guide v0.2 for Android")
 
 
